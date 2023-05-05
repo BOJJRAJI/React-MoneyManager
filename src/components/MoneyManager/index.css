@@ -1,0 +1,143 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.user-details-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding-left: 20px;
+}
+.user-name {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: bold;
+}
+.greetings {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.greetings-span {
+  color: #0b69ff;
+}
+.form-history-container {
+  display: flex;
+  flex-direction: row;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #d7dfe9;
+  border-radius: 7px;
+  width: 60%;
+}
+.transaction-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+}
+.label-element {
+  font-size: 10px;
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-weight: bold;
+  padding-bottom: 3px;
+}
+.input-element {
+  border: 1px solid #d7dfe9;
+  font-size: 10px;
+  font-family: 'Roboto';
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.select-element {
+  border: 1px solid #d7dfe9;
+  padding: 5px;
+  border-radius: 3px;
+  color: #1e293b;
+}
+.add-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 5px;
+  border: none;
+  margin-top: 10px;
+  width: 60px;
+  height: 30px;
+  border-radius: 7px;
+}
+.history-container {
+  padding: 10px;
+  border: 1px solid #d7dfe9;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  width: 100%;
+}
+.history-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+}
+.history-items {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.history-headings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #d7dfe9;
+  height: 40px;
+}
+.title-heading {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+}
+.para {
+  color: transparent;
+}
+@media screen and (max-width: 567px) {
+  .user-details-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .user-name {
+    font-size: 20px;
+  }
+  .greetings {
+    font-size: 14px;
+  }
+  .form {
+    width: 100%;
+  }
+  .form-history-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .history-container {
+    padding: 10px;
+    border: 1px solid #d7dfe9;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}

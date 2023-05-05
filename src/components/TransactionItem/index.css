@@ -1,0 +1,21 @@
+.transaction-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #d7dfe9;
+  height: 40px;
+}
+.item {
+  font-size: 13px;
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-weight: bold;
+}
+.delete-button {
+  border: none;
+  background-color: transparent;
+}
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
